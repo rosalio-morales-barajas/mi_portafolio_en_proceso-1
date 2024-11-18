@@ -1,0 +1,138 @@
+2024-11-12 23:08:58.732 [info] [main] Log level: Info
+2024-11-12 23:08:58.732 [info] [main] Validating found git in: "git"
+2024-11-12 23:08:58.733 [info] [main] Using git "2.47.0" from "git"
+2024-11-12 23:08:58.733 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-12 23:08:58.733 [info] > git rev-parse --show-toplevel [119ms]
+2024-11-12 23:08:58.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:08:58.733 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-12 23:08:58.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:08:58.737 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-12 23:08:58.737 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:08:58.748 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-12 23:09:05.617 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-12 23:09:05.619 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:17:44.220 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-12 23:17:44.220 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:20:16.257 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-12 23:20:16.257 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 23:32:14.165 [info] [main] Log level: Info
+2024-11-12 23:32:14.165 [info] [main] Validating found git in: "git"
+2024-11-12 23:32:14.165 [info] [main] Using git "2.47.0" from "git"
+2024-11-12 23:32:14.165 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-12 23:32:14.165 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-12 23:35:07.084 [info] > git rev-parse --show-toplevel [15ms]
+2024-11-12 23:35:13.093 [info] [main] Log level: Info
+2024-11-12 23:35:13.093 [info] [main] Validating found git in: "git"
+2024-11-12 23:35:13.093 [info] [main] Using git "2.47.0" from "git"
+2024-11-12 23:35:13.093 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-12 23:35:13.093 [info] > git rev-parse --show-toplevel [382ms]
+2024-11-12 23:35:13.138 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2024-11-12 23:35:13.224 [info] [Model][openRepository] Opened repository: /home/rosalio/Escritorio/Calculator---JS
+2024-11-12 23:35:13.422 [info] > git rev-parse --show-toplevel [160ms]
+2024-11-12 23:35:13.428 [info] > git config --get commit.template [172ms]
+2024-11-12 23:35:13.604 [info] > git rev-parse --show-toplevel [115ms]
+2024-11-12 23:35:13.649 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-12 23:35:13.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2024-11-12 23:35:13.677 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:35:13.687 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-11-12 23:35:13.761 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-12 23:35:13.799 [info] > git status -z -uall [67ms]
+2024-11-12 23:35:13.892 [info] > git check-ignore -v -z --stdin [20ms]
+2024-11-12 23:35:13.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-11-12 23:35:14.049 [info] > git config --local branch.main.vscode-merge-base [135ms]
+2024-11-12 23:35:14.049 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-12 23:35:14.061 [info] > git config --get commit.template [170ms]
+2024-11-12 23:35:14.126 [info] > git reflog main --grep-reflog=branch: Created from *. [65ms]
+2024-11-12 23:35:14.162 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2024-11-12 23:35:14.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-11-12 23:35:14.190 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:35:14.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2024-11-12 23:35:14.216 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2024-11-12 23:35:14.244 [info] > git status -z -uall [16ms]
+2024-11-12 23:35:14.245 [info] > git config --local branch.main.vscode-merge-base origin/main [42ms]
+2024-11-12 23:35:14.246 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms] (cancelled)
+2024-11-12 23:35:14.278 [info] > git config --get commit.template [4ms]
+2024-11-12 23:35:14.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-11-12 23:35:14.297 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-11-12 23:35:14.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2024-11-12 23:35:14.375 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2024-11-12 23:35:14.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2024-11-12 23:35:14.405 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:35:14.409 [info] > git diff --name-status -z --diff-filter=ADMR 85efa8b217bebe20c4f5773760a6e8ae39547952...refs/remotes/origin/main [20ms]
+2024-11-12 23:35:14.413 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-11-12 23:35:14.439 [info] > git status -z -uall [14ms]
+2024-11-12 23:35:14.443 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-12 23:35:16.821 [info] > git show --textconv :index.html [24ms]
+2024-11-12 23:35:16.822 [info] > git ls-files --stage -- /home/rosalio/Escritorio/Calculator---JS/index.html [5ms]
+2024-11-12 23:35:16.866 [info] > git cat-file -s 42ea91db9b85edb0b9b70bec877552a0242ada47 [28ms]
+2024-11-12 23:40:48.562 [info] > git check-ignore -v -z --stdin [8ms]
+2024-11-12 23:40:48.681 [info] > git config --get commit.template [20ms]
+2024-11-12 23:40:48.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-12 23:40:48.699 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:40:48.702 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:40:48.739 [info] > git status -z -uall [23ms]
+2024-11-12 23:40:48.743 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-11-12 23:43:55.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-11-12 23:43:55.191 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:43:55.193 [info] > git config --get commit.template [54ms]
+2024-11-12 23:43:55.194 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:43:55.221 [info] > git status -z -uall [16ms]
+2024-11-12 23:43:55.225 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-12 23:44:44.263 [info] > git config --get commit.template [61ms]
+2024-11-12 23:44:44.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2024-11-12 23:44:44.294 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:44:44.297 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:44:44.370 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2024-11-12 23:44:44.451 [info] > git status -z -uall [142ms]
+2024-11-12 23:45:20.543 [info] > git config --get commit.template [18ms]
+2024-11-12 23:45:20.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-12 23:45:20.559 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:45:20.562 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:45:20.587 [info] > git status -z -uall [14ms]
+2024-11-12 23:45:20.590 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-12 23:46:08.732 [info] > git config --get commit.template [16ms]
+2024-11-12 23:46:08.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-12 23:46:08.749 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:46:08.752 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-12 23:46:08.778 [info] > git status -z -uall [14ms]
+2024-11-12 23:46:08.782 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-12 23:49:40.357 [info] > git config --get commit.template [38ms]
+2024-11-12 23:49:40.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-11-12 23:49:40.376 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:49:40.385 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-11-12 23:49:40.424 [info] > git status -z -uall [26ms]
+2024-11-12 23:49:40.432 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-11-12 23:50:28.553 [info] > git ls-files --stage -- /home/rosalio/Escritorio/Calculator---JS/package.json [13ms]
+2024-11-12 23:50:28.581 [info] > git show --textconv :package.json [64ms]
+2024-11-12 23:50:28.584 [info] > git cat-file -s c9b4f09d2832c22c32f452859583098d04d389e7 [14ms]
+2024-11-12 23:56:56.068 [info] > git check-ignore -v -z --stdin [24ms]
+2024-11-12 23:56:56.074 [info] > git config --get commit.template [8ms]
+2024-11-12 23:56:56.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-12 23:56:56.102 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:56:56.105 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:56:56.139 [info] > git status -z -uall [22ms]
+2024-11-12 23:56:56.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-11-12 23:57:33.645 [info] > git config --get commit.template [35ms]
+2024-11-12 23:57:33.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [300ms]
+2024-11-12 23:57:33.958 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:57:33.963 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-12 23:57:34.020 [info] > git status -z -uall [26ms]
+2024-11-12 23:57:34.025 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-12 23:57:39.063 [info] > git config --get commit.template [4ms]
+2024-11-12 23:57:39.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-12 23:57:39.100 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:57:39.105 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-12 23:57:39.178 [info] > git status -z -uall [39ms]
+2024-11-12 23:57:39.183 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-11-12 23:57:47.872 [info] > git config --get commit.template [16ms]
+2024-11-12 23:57:47.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-12 23:57:47.884 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-12 23:57:47.887 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-12 23:57:47.919 [info] > git status -z -uall [20ms]
+2024-11-12 23:57:47.921 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-13 00:09:44.040 [info] > git config --get commit.template [211ms]
+2024-11-13 00:09:44.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [215ms]
+2024-11-13 00:09:44.075 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/Calculator---JS/.git/refs/remotes/origin/main'
+2024-11-13 00:09:44.078 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-13 00:09:44.111 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-13 00:09:44.159 [info] > git status -z -uall [67ms]
